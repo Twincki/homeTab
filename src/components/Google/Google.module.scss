@@ -1,6 +1,37 @@
-.main {
-  display: flex;
-  justify-content: center;
+.section {
   height: 50vh;
   background: linear-gradient(rgb(26, 26, 29), rgb(40, 40, 44));
+}
+
+.header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+
+  .title {
+    color: #ffff;
+    font-size: 5vh;
+    transition: 0.4s;
+    text-shadow: 10px 7px 20px rgba(0, 162, 255, 0.363);
+    &:hover {
+      text-shadow: 10px 7px 10px rgba(0, 162, 255, 0.363);
+      color: #ffff;
+    }
+  }
+
+  .icon {
+    width: 13vh;
+    height: 4vh;
+    color: rgba(181, 181, 181, 0.547);
+    transition: 0.4s;
+    &:hover {
+      color: #ffff;
+    }
+  }
+}
+
+.main {
+  padding-top: 20vh;
+  display: flex;
+  justify-content: center;
 }
